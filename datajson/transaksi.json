@@ -1,0 +1,12 @@
+[
+  {
+    "transaction_id": "123456789",
+    "status": "menunggu",
+    "amount": 100000,
+    "currency": "Rupiah",
+    "maded": "2023-10-25T14:30:00Z",
+    "payed": "",
+    "accepted": "",
+    "message": "Transaksi Menunggu Pembayaran"
+  }
+]

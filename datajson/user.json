@@ -1,0 +1,52 @@
+{
+  "User": [
+    {
+      "id": "87e04478-6fb3-4bbe-b03d-79201b60d98f",
+      "username": "Sinta",
+      "password": "$2a$10$7FaWh3AuHXiu74uLcHhui.0tkpw0Cs5hxQX7ldcWVNFdJmEOqJ4G2",
+      "email": "dsfd@ght.ng",
+      "token": "",
+      "role": "user"
+    },
+    {
+      "id": "f696f8d5-9cf8-4cad-b5a4-31b5e855ac33",
+      "username": "bca",
+      "password": "$2a$10$xc1/juSUOCb5I1f0jeTqoOOjfrWGKABLlZ4igf2uBDiohIRsI1xD6",
+      "email": "bca@ght.ng",
+      "token": "",
+      "role": "bank"
+    },
+    {
+      "id": "aea0d4fc-a876-4810-af3a-71b9e21e0834",
+      "username": "alfamart",
+      "password": "$2a$10$a0jV4OpTIus14FeerBy.yeGNbGPwYz1ueY6aC9SldNIZ34D5PAK1C",
+      "email": "alfa@mart.ng",
+      "token": "",
+      "role": "marchand"
+    },
+    {
+      "id": "360a7c3e-5ca5-484d-8e77-d7d5a74f2f17",
+      "username": "indonaret",
+      "password": "$2a$10$414O1.voqC7OSA3VApg.POE3nWkhlm05gCZFbblxkOr0F9uL4Zhk2",
+      "email": "indo@mart.ng",
+      "token": "",
+      "role": "marchand"
+    },
+    {
+      "id": "bca86e7d-da23-4298-9917-6c8440b19694",
+      "username": "indomaret",
+      "password": "$2a$10$D0.adIa0XvsatZz7SKA9NOhhyOlVxMkrForHuPXEUOjB5F3EOW..W",
+      "email": "indo@maret.ng",
+      "token": "",
+      "role": "marchand"
+    },
+    {
+      "id": "c75c8eb4-3ad3-4323-bcb3-c5c7fe4130a7",
+      "username": "bri",
+      "password": "$2a$10$RpqfyLcFksd7WeEqzjNUXejtHCctdRbk1K0xhHWU3ZlcwUEPq28p.",
+      "email": "bri@maret.ng",
+      "token": "",
+      "role": "bank"
+    }
+  ]
+}

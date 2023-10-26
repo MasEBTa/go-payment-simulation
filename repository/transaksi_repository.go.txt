@@ -1,0 +1,28 @@
+
+type UserRepository interface {
+	FindById(id string) (model.UserCredential, error)
+	FindByEmail(email string) (model.UserCredential, error)
+	FindByRole(role string) ([]model.UserCredential, error)
+	FIndByUsername(username string) (model.UserCredential, error)
+	NewUser(payload model.UserCredential) (model.UserCredential, error)
+}
+func NewTransaksiRepository(jsonFilePath string) (TransaksiRepository, error) {
+	file, err := os.Open(jsonFilePath)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	var fileConfig fileConfig
+
+	// Dekode berkas JSON ke dalam variabel fileConfig
+	decoder := json.NewDecoder(file)
+	if err := decoder.Decode(&fileConfig); err != nil {
+		return nil, err
+	}
+
+	return &TransaksiRepository{
+		data:         fileConfig.Transaksi,
+		jsonFilePath: jsonFilePath,
+	}, nil
+}
